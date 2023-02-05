@@ -1,0 +1,41 @@
+title-text: ""
+title-color: "white"
+desktop-image: "background.png"
+
++ hbox {
+    left = 5%+8
+    top = 85%-6
+    width = 0%
+    height = 25
+    
+    + label {
+        text = "@KEYMAP_SHORT@"
+        color = "#ffffff"
+        align = "left"
+        font = "Terminus Regular 12"
+    }
+}
+
++ boot_menu {
+    left = 60%
+    top = 32%
+    width = 40%
+    height = 68%
+
+    item_font = "EternalBattleBold Regular 24"
+    item_color = "#ffffff"
+    
+    selected_item_color = "#dc143c"
+    selected_item_pixmap_style = "select_*.png"
+    
+    item_height = 40
+    item_padding = 0
+    item_spacing = 15
+}
+
+terminal-font: "Terminus Regular 14"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
