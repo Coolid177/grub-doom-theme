@@ -3,6 +3,7 @@ move this folder to /boot/grub/themes
 the grub folder can also be named grub2, this should not cause any problems.
 in /etc/default/grub you have to uncomment the "GRUB_THEME" and set it to /boot/grub/themes/grub-doom-theme/theme.txt
 afterwards you run the following command: sudo grub-mkconfig -o /boot/grub/grub.cfg
+Note: I noticed that the downloaded folder (directly from github) is called grub-doom-theme-main. if you don't change the name then make sure you put it like this in the grub file properly.
 
 If you reboot now you will see the new theme
 --
